@@ -58,6 +58,10 @@ function movieThis() {
         })
 }
 
+function doWhatItSays() {
+
+}
+
 switch (info) {
     case "spotify-this-song":
         findSpotify()
@@ -67,5 +71,8 @@ switch (info) {
         break
     case "movie-this":
         movieThis()
+        break
+    case "do-what-it-says":
+        doWhatItSays()
         break
 }
