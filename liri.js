@@ -6,7 +6,6 @@ var spotify = new Spotify(keys.spotify)
 var moment = require("moment")
 var axios = require("axios")
 var fs = require("fs")
-
 var input = process.argv
 var info = input[2]
 var request = input.slice(3).join(" ")
@@ -25,7 +24,7 @@ function findSpotify() {
             console.log("Album Title: " + data.tracks.items[i].album.name)
             console.log("----------------------")
         }
-    });
+    })
 }
 
 function concertThis() {
@@ -59,7 +58,9 @@ function movieThis() {
 }
 
 function doWhatItSays() {
-
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        console.log(data)
+    })
 }
 
 switch (info) {
