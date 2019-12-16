@@ -59,21 +59,33 @@ function movieThis() {
 
 function doWhatItSays() {
     fs.readFile("random.txt", "utf8", function (err, data) {
-        console.log(data)
+        if (err) {
+            throw err
+        }
+        var split = data.split(",")
+        info = split[0]
+        request = split[1].split('"').join('')
+        check()
     })
 }
 
-switch (info) {
-    case "spotify-this-song":
-        findSpotify()
-        break
-    case "concert-this":
-        concertThis()
-        break
-    case "movie-this":
-        movieThis()
-        break
-    case "do-what-it-says":
-        doWhatItSays()
-        break
+function check() {
+    switch (info) {
+        case "spotify-this-song":
+            findSpotify()
+            break
+        case "concert-this":
+            concertThis()
+            break
+        case "movie-this":
+            movieThis()
+            break
+        case "do-what-it-says":
+            doWhatItSays()
+            break
+        default:
+            console.log("You haven't requested anything!")
+            break
+    }
 }
+check()
