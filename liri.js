@@ -42,12 +42,12 @@ function concertThis() {
 function movieThis() {
     //axios.get("http://www.omdbapi.com/?i=tt3896198&apikey=" + omdb)
     axios.get("http://www.omdbapi.com/?t=" + request + "&i=tt3896198&apikey=761dff93")
-        .then(function (response) {
+        .then(function (response) {-
 
             console.log("Movie Title: " + response.data.Title)
             console.log("Release Year: " + response.data.Year)
             console.log("IMDB Rating: " + response.data.imdbRating)
-            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].value)
+            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value)
             console.log("Production Location: " + response.data.Country)
             console.log("Language: " + response.data.Language)
             console.log("Plot: " + response.data.Plot)
