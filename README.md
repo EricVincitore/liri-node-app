@@ -12,6 +12,25 @@ Liri-Node-App is a language interpretation and recognition interface. Using simp
 
 ## Instructions
 
+### Setting up the app
+1. Get sign up for a free api key from Spotify and OMDB. Bands in Town does not require one. Links to get these keys follow:
+* Spotify: Create an account with spotify and at your dashboard you can start a new project and get your ID and Secret ID from them. 
+*       https://developer.spotify.com/
+* OMDB: Fill out the form form the site and they will email you your key.
+*       http://www.omdbapi.com/apikey.aspx
+
+2. After you have your keys clone the repository to have a copy of the functioning code.
+
+3. Create a .env file in the folder you cloned from github. In that .env file add the following text with your api keys:
+*       SPOTIFY_ID = {Insert your unique Spotify ID}
+*       SPOTIFY_SECRET = {Insert your unique Spotify Secret}
+*       OMDB_KEY = {Insert your unique OMDB api key}
+
+4. Navigate to the folder of the application in your command line and type the following to install all required dependencies:
+*        npm install
+
+5. The app is now set up and you can follow any of the instructions below.
+
 ### Spotify
 1. Navigate to the liri.js file in your terminal
 
