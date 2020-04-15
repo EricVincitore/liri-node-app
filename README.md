@@ -40,9 +40,9 @@ Liri-Node-App is a language interpretation and recognition interface. Using simp
     
 3. The app should run as follows.
 
-![Spotify Command](images/spotify1.PNG)
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/spotify1.PNG)
 
-![Spotify Command](images/spotify2.PNG)
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/spotify2.PNG)
 
 ### OMDB
 1. Navigate to the liri.js file in your terminal
@@ -53,9 +53,9 @@ Liri-Node-App is a language interpretation and recognition interface. Using simp
     
 3. The app should run as follows.
 
-![OMDB Command](images/OMDB1.PNG)
+![OMDB Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/OMDB1.PNG)
 
-![OMDB Command](images/OMDB2.PNG)
+![OMDB Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/OMDB2.PNG)
 
 ### Bands in Town
 1. Navigate to the liri.js file in your terminal
@@ -66,9 +66,9 @@ Liri-Node-App is a language interpretation and recognition interface. Using simp
     
 3. The app should run as follows.
 
-![Spotify Command](images/BIN1.PNG)
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/BIN1.PNG)
 
-![Spotify Command](images/BIN2.PNG) 
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/BIN2.PNG) 
 
 ### Use Text File
 1. Open the random.txt file.
@@ -83,11 +83,11 @@ Liri-Node-App is a language interpretation and recognition interface. Using simp
     
 3. The app should run as follows.
 
-![Spotify Command](images/do1.PNG)
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/do1.PNG)
 
-![Spotify Command](images/do2.PNG)
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/do2.PNG)
 
-![Spotify Command](images/do3.PNG)
+![Spotify Command](https://raw.githubusercontent.com/EricVincitore/liri-node-app/master/Images/do3.PNG)
 
 ## Links
 
